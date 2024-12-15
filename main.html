@@ -3,6 +3,116 @@
     outline: solid red;
 }
 
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0F1113;
+}
+* {background-color: black}
+
+.leftSideBarButton {
+    background: none;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.leftSideBarButton:hover {
+    background-color: #181C1F;
+}
+
+.interactionButtons {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.interactionButtons:hover {
+    background-color: #333D41;
+}
+
+.upArrowColor {
+    color: white;
+}
+
+.upArrowColor:hover {
+    filter: invert(36%) sepia(66%) saturate(6467%) hue-rotate(8deg) brightness(90%) contrast(101%);
+    
+}
+
+.downArrowColor {
+    color: white;
+}
+
+.downArrowColor:hover {
+    filter: invert(23%) sepia(14%) saturate(5681%) hue-rotate(222deg) brightness(84%) contrast(100%);
+}
+
+.opinteractionButtons {
+    background-color: #2B3236;
+    border-radius: 30px;
+}
+
+.opinteractionButtons:hover {
+    background-color: #333D41;
+}
+
+.addCommentBorder {
+    border: 1px solid #868889;
+    border-radius: 30px;
+}
+
+.addCommentBorder:hover {
+    border: 1px solid white;
+}
+
+.sortButton {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+}
+
+.sortButton:hover {
+    background-color: #333D41;
+}
+
+.searchBorder {
+    border: 1px solid #27282A;
+    border-radius: 30px;
+}
+
+.searchBorder:hover{
+    border: 1px solid #8BA2AD;
+}
+
+.sideBarLine {
+    width: 0;
+}
+
+.sidebar {
+    width: 240px;
+    padding: 30px;
+}
+
+@media (max-width: 1200px) {
+    .sidebar {
+        width: 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sideBarLine {
+        height: auto;
+        border: 1px solid #3F4142;
+        margin: 3px;
+        display:inline-block;
+    }
+}
+
 input:valid {
     outline: none black;
 }
