@@ -123,3 +123,12 @@ body {
     }
 }
 
+.opWidth {
+    min-width: 400px
+}
+
+@media (max-width: 460px) {
+    .opWidth {
+        min-width: none;
+    }
+}
