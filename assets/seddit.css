@@ -118,6 +118,12 @@ body {
     width: 125px;
 }
 
+.mainContent {
+    margin: 24px
+}
+
+
+
 @media (max-width: 460px) {
     .searchSeddit {
         font-size: small;
@@ -129,14 +135,27 @@ body {
     .searchSeddit {
         margin: 30px;
     }
+    .mainContent {
+        margin: 12;
+    }
 }
 
 .rightSideBar {
     width: 280px; 
+    margin: 24px;
+}
+
+.centerContnet {
+    max-width: max-content; 
+    margin: auto;
 }
 
 @media (max-width: 850px) {
     .rightSideBar {
         width: 0;
+        margin: 0;
+    }
+    .centerContnet {
+        margin: 0;
     }
 }
