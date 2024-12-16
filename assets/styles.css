@@ -81,6 +81,15 @@ body {
     width: 0;
 }
 
+@media (min-width: 1200px) {
+    .sideBarLine {
+        height: auto;
+        border: 1px solid #3F4142;
+        margin: 3px;
+        display:inline-block;
+    }
+}
+
 .sidebar {
     width: 240px;
     padding: 30px;
@@ -93,11 +102,24 @@ body {
     }
 }
 
-@media (min-width: 1200px) {
-    .sideBarLine {
-        height: auto;
-        border: 1px solid #3F4142;
-        margin: 3px;
-        display:inline-block;
+.searchSeddit {
+    font-size: medium;
+    min-width: 110px;
+}
+
+@media (max-width: 460px) {
+    .searchSeddit {
+        font-size: small;
     }
 }
+
+.mainContent {
+    padding-right: 24px;
+}
+
+@media (max-width: 460px) {
+    .mainContent {
+        padding-right: 0px;
+    }
+}
+
