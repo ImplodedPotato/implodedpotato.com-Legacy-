@@ -122,9 +122,3 @@ body {
     margin: 24px;
     max-width: 730px;
 }
-
-@media (max-width: 460px) {
-    .mainContent {
-        /* margin: 12px; */
-    }
-}
