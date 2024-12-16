@@ -35,11 +35,11 @@ function generateResponse(i::response)
     <div>
         <div><img src=\"assets/images/profileImages/$(i.pfp)\" style=\"height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;\"></div>
     </div>
-    <div style=\"display: flex; color: white; font-size: 14px;\">
+    <div class=\"comment\" style=\"display: flex; font-size: 14px;\">
         <div>
             <div style=\"display: flex; align-items: center; flex-direction: row;\">
                 <div style=\"display: flex; align-items: center;\">
-                    <div style=\"font-size: 12px;\">$(i.name)</div>
+                    <div style=\"font-size: 12px; color: white;\">$(i.name)</div>
                     <div style=\"padding: 5px; color: rgb(139, 162, 173); font-size: 12px;\">•</div>
                     <div style=\"color: rgb(139, 162, 173); font-size: 12px;\">$(i.date)</div>
                     <div style=\"padding: 5px; color: rgb(139, 162, 173); font-size: 12px;\">•</div>

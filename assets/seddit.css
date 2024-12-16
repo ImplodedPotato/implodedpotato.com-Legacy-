@@ -26,6 +26,10 @@ body {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.comment {
+    color: #D7E5E5;
+}
+
 .interactionButtons:hover {
     background-color: #333D41;
 }
