@@ -114,12 +114,12 @@ body {
 }
 
 .mainContent {
-    padding-right: 24px;
+    margin: 24px;
 }
 
 @media (max-width: 460px) {
     .mainContent {
-        padding-right: 0px;
+        margin: 12px;
     }
 }
 
