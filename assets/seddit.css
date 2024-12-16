@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #0F1113;
+    font-family: Arial, sans-serif;
 }
 
 .leftSideBarButton {
@@ -119,20 +120,11 @@ body {
 
 .mainContent {
     margin: 24px;
+    max-width: 730px;
 }
 
 @media (max-width: 460px) {
     .mainContent {
-        margin: 12px;
-    }
-}
-
-.opWidth {
-    min-width: 400px
-}
-
-@media (max-width: 460px) {
-    .opWidth {
-        min-width: none;
+        /* margin: 12px; */
     }
 }
