@@ -10,340 +10,354 @@
 </head>
 
 <div id="seddit">
-    <div>
-        <div>
-            <!-- Top Bar -->
-            <header style="top: 0px; z-index: 999; position: sticky; background-color: rgb(15, 17, 19);">
-                <div style="flex-direction: row; padding-left: 8px; height: 56px; display: flex; align-items: center; padding-right: 8px; border-bottom: rgb(63, 65, 66) solid 2px; justify-content: space-between;">
-                    <img src="assets/images/topBar/" style="height: 40px; width: 125px;">
-                    <div class="searchSeddit" style="height: 40px; display: flex; align-items: center; max-width: 560px; justify-content: center; background-color: rgb(43, 50, 54); border-radius: 50px; flex: 1 1 0%; color: rgb(137, 160, 170); margin: 40px;">Search Seddit</div>
-                    <div style="display: flex;">
-                        <div style="font-size: 14px; height: 40px; display: flex; align-items: center; justify-content: center; background-color: #7D8596; border-radius: 50px; width: 67px; flex: 1 1 0%; color: white;">Log In</div>
-                        <img src="assets/images/symbols/threeDots.svg" style="height: auto; padding-right: 10px; width: 15px; padding-left: 10px;">
-                    </div>
-                </div>
-                <!-- Top Bar End -->
-            </header>
+    <!-- Top Bar -->
+    <header style="top: 0px; z-index: 999; position: sticky; background-color: rgb(15, 17, 19);">
+        <div style="flex-direction: row; padding-left: 8px; height: 56px; display: flex; align-items: center; padding-right: 8px; border-bottom: rgb(63, 65, 66) solid 2px; justify-content: space-between;">
+            <img class="logo" src="assets/images/topBar/">
+            <div class="searchSeddit" style="height: 40px; display: flex; align-items: center; max-width: 560px; justify-content: center; background-color: rgb(43, 50, 54); border-radius: 50px; flex: 1 1 0%; color: rgb(137, 160, 170);">Search Seddit</div>
             <div style="display: flex;">
-                <!-- Left Side Bar -->
-                <header class="sidebar" style="height: 100vh; overflow-y: scroll;">
-                    <div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/house.svg" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Home</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Popular</a>
-                        </div>
-                    </div>
-                
-                
-                    <div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Internet Culture (Viral)</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Games</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Q&As</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Technology</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Pop Culture</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Movies & TV</a>
-                        </div>
-                    </div>
-                
-                    <div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>About Reddit</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Advertise</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Help</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Blog</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Careers</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Press</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Communites</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Best of Reddit</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Topics</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Content Policy</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>Privacy Policy</a>
-                        </div>
-                        <div class="leftSideBarButton">
-                        <img src="/assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
-                        <a>User Agreement</a>
-                        </div>
-                    </div>
-                   <!-- Left Side Bar End -->
-                </header>
-                <div class="sideBarLine"></div>
-                 <!-- Main Post -->
-                <div>
-                    <div class="mainContent">
-                        <div style="display: flex; align-items: center; justify-content: space-between;">
-                            <div style="margin-top: 8px; display: flex; align-items: center;">
-                                <a href="https://implodedpotato.com"> <img src="assets/images/symbols/backArrow.png" style="height: auto; border-radius: 50%; width: 32px; margin-right: 10px; background-color: rgb(43, 50, 54);"></a>
-                                <div><img src="assets/images/profileImages/Defualt.png" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
-                                <div style="display: flex; color: white; flex-direction: column;">
-                                    <div style="display: flex; align-items: center; flex-direction: row;">
-                                        <div style="color: rgb(184, 202, 212); font-size: 12px; font-weight: bold;">s/Old_Recipies</div>
-                                        <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 10px;">•</div>
-                                        <div style="color: rgb(139, 162, 173); font-size: 9px;">6.9 mo. ago</div>
-                                    </div>
-                                    <div style="color: rgb(184, 202, 212); font-size: 10px;">John Doe</div>
-                                </div>
-                            </div>
-                            <img src="assets/images/symbols/threeDots.svg" style="height: auto; width: 10px;">
-                        </div>
-                        <h1 style="color: white; font-size: 18px; margin: 0px 0px 16px;">Does anyone have a pizza recipe you would just die for?</h1>
-                        <p style="margin-top: 5px; color: rgb(184, 202, 212); font-size: 14px;">Im looking for a recipe that would just make your go, “What a splendid pie, pizza-pizza pie”. One where it’s curst is so fluffy, it’s sauce so saucy, it’s toppings so extravagant that every minute and every second, you would would “buy buy buy buy buy”. Normal recipes and Pizza Huts are just a total let down of the traditional masterpiece.</p>
-                        <div style="display: flex; padding-top: 16px;">
-                            <div class="opinteractionButtons">
-                                <img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; width: 32px;">
-                                <div style="color: white; font-size: 12px;">41</div>
-                                <img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; width: 32px;">
-                            </div>
-                            <div class="opinteractionButtons" style="display: flex; align-items: center; margin-right: 16px; flex-direction: row;">
-                                <div style="height: 32px; display: flex; align-items: center; width: 32px; justify-content: center;"><img src="data:image/svg+xml;Base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9Ii0xNiAtMTYgNjQuMDAgNjQuMDAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iI2ZmZmZmZiI+Cg08ZyBpZD0iU1ZHUmVwb19iZ0NhcnJpZXIiIHN0cm9rZS13aWR0aD0iMCIvPgoNPGcgaWQ9IlNWR1JlcG9fdHJhY2VyQ2FycmllciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cg08ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+IDx0aXRsZT5jb21tZW50LTI8L3RpdGxlPiA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoIEJldGEuPC9kZXNjPiA8ZGVmcz4gPC9kZWZzPiA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBza2V0Y2g6dHlwZT0iTVNQYWdlIj4gPGcgaWQ9Ikljb24tU2V0IiBza2V0Y2g6dHlwZT0iTVNMYXllckdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTUyLjAwMDAwMCwgLTI1NS4wMDAwMDApIiBmaWxsPSIjZmZmZmZmIj4gPHBhdGggZD0iTTE2OCwyODEgQzE2Ni44MzIsMjgxIDE2NS43MDQsMjgwLjg2NCAxNjQuNjIsMjgwLjYzMyBMMTU5LjkxMiwyODMuNDYzIEwxNTkuOTc1LDI3OC44MjQgQzE1Ni4zNjYsMjc2LjY1NCAxNTQsMjczLjA2NiAxNTQsMjY5IEMxNTQsMjYyLjM3MyAxNjAuMjY4LDI1NyAxNjgsMjU3IEMxNzUuNzMyLDI1NyAxODIsMjYyLjM3MyAxODIsMjY5IEMxODIsMjc1LjYyOCAxNzUuNzMyLDI4MSAxNjgsMjgxIEwxNjgsMjgxIFogTTE2OCwyNTUgQzE1OS4xNjQsMjU1IDE1MiwyNjEuMjY5IDE1MiwyNjkgQzE1MiwyNzMuNDE5IDE1NC4zNDUsMjc3LjM1NCAxNTgsMjc5LjkxOSBMMTU4LDI4NyBMMTY1LjAwOSwyODIuNzQ3IEMxNjUuOTc5LDI4Mi45MDcgMTY2Ljk3NywyODMgMTY4LDI4MyBDMTc2LjgzNiwyODMgMTg0LDI3Ni43MzIgMTg0LDI2OSBDMTg0LDI2MS4yNjkgMTc2LjgzNiwyNTUgMTY4LDI1NSBMMTY4LDI1NSBaIE0xNzUsMjY2IEwxNjEsMjY2IEMxNjAuNDQ4LDI2NiAxNjAsMjY2LjQ0OCAxNjAsMjY3IEMxNjAsMjY3LjU1MyAxNjAuNDQ4LDI2OCAxNjEsMjY4IEwxNzUsMjY4IEMxNzUuNTUyLDI2OCAxNzYsMjY3LjU1MyAxNzYsMjY3IEMxNzYsMjY2LjQ0OCAxNzUuNTUyLDI2NiAxNzUsMjY2IEwxNzUsMjY2IFogTTE3MywyNzIgTDE2MywyNzIgQzE2Mi40NDgsMjcyIDE2MiwyNzIuNDQ3IDE2MiwyNzMgQzE2MiwyNzMuNTUzIDE2Mi40NDgsMjc0IDE2MywyNzQgTDE3MywyNzQgQzE3My41NTIsMjc0IDE3NCwyNzMuNTUzIDE3NCwyNzMgQzE3NCwyNzIuNDQ3IDE3My41NTIsMjcyIDE3MywyNzIgTDE3MywyNzIgWiIgaWQ9ImNvbW1lbnQtMiIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+IDwvcGF0aD4gPC9nPiA8L2c+IDwvZz4KDTwvc3ZnPg==" style="height: 32px; position: absolute; width: 32px;"></div>
-                                <div style="color: white; font-size: 12px; margin-right: 10px;">60</div>
-                            </div>
-                            <div class="opinteractionButtons" style="display: flex; align-items: center; justify-content: center;">
-                                <div style="height: 32px; display: flex; align-items: center; width: 32px; justify-content: center;"><img src="data:image/svg+xml;Base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyNS4wMCAyNS4wMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBzdHJva2U9IiNmZmZmZmYiPgoNPGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiLz4KDTxnIGlkPSJTVkdSZXBvX3RyYWNlckNhcnJpZXIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgoNPGcgaWQ9IlNWR1JlcG9faWNvbkNhcnJpZXIiPiA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE0LjczNCAxNS44OTc0TDE5LjIyIDEyLjEzNzRDMTkuMzk3MSAxMS45OTI3IDE5LjQ5OTggMTEuNzc2MSAxOS40OTk4IDExLjU0NzRDMTkuNDk5OCAxMS4zMTg3IDE5LjM5NzEgMTEuMTAyMiAxOS4yMiAxMC45NTc0TDE0LjczNCA3LjE5NzQzQzE0LjQ5NDcgNi45OTI5IDE0LjE1OTggNi45NDI3NSAxMy44NzExIDcuMDY4MjZDMTMuNTgyNCA3LjE5Mzc3IDEzLjM5MDYgNy40NzI5NSAxMy4zNzcgNy43ODc0M1Y5LjI3MDQzQzcuMDc5IDguMTc5NDMgNS41IDEzLjgxNTQgNS41IDE2Ljk5NzRDNi45NjEgMTQuNTczNCAxMC43NDcgMTAuMTc5NCAxMy4zNzcgMTMuODE1NFYxNS4zMDI0QzEzLjM4ODggMTUuNjE3OCAxMy41Nzk5IDE1Ljg5ODcgMTMuODY4OSAxNi4wMjU0QzE0LjE1OCAxNi4xNTIxIDE0LjQ5NCAxNi4xMDI0IDE0LjczNCAxNS44OTc0WiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+IDwvZz4KDTwvc3ZnPg==" style="height: 24px; position: absolute; width: 24px;"></div>
-                                <div style="color: white; font-size: 12px; margin-right: 10px;">Share</div>
-                            </div>
-                        </div>
-                        <div style="margin-top: 20px; margin-bottom: 25px;">
-                            <div class="addCommentBorder" style="margin-bottom: 10px; height: 40px; display: flex; align-items: center; width: 160px; justify-content: center;">
-                                <div style="height: 30px; display: flex; align-items: center; width: 30px; justify-content: center;"><img src="assets/images/symbols/plus.svg" style="height: 30px; position: absolute; width: 30px;"></div>
-                                <div style="color: white; font-size: 14px; margin-right: 10px; padding-left: 5px;">Add A Comment</div>
-                            </div>
-                            <div style="display: flex; align-items: center; color: rgb(134, 155, 167); font-size: 12px;">
-                                <div>Sort By: </div>
-                                <div class="sortButton" style="height: 32px; display: flex; align-items: center; width: 65px; justify-content: center;">
-                                    <div style="font-weight: bold;">Best</div><img src="data:image/svg+xml;Base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyNC4wMCAyNC4wMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBzdHJva2U9IiNmZmZmZmYiPgoNPGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiLz4KDTxnIGlkPSJTVkdSZXBvX3RyYWNlckNhcnJpZXIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgoNPGcgaWQ9IlNWR1JlcG9faWNvbkNhcnJpZXIiPiA8cGF0aCBkPSJNNyAxMEwxMiAxNUwxNyAxMCIgc3Ryb2tlPSIjQjhDQUQ0IiBzdHJva2Utd2lkdGg9IjEuOTIwMDAwMDAwMDAwMDAwNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+IDwvZz4KDTwvc3ZnPg==" style="height: 16px; width: 16px; margin-left: 4px;"></div>
-                                <div class="searchBorder" style="height: 40px; display: flex; align-items: center; width: 185px; margin-left: 10px; justify-content: center;"><img src="data:image/svg+xml;Base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyBmaWxsPSIjNzU4NzkxIiB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBzdHJva2U9IiM4NjlCQTciIHN0cm9rZS13aWR0aD0iMC4wMDAyNDAwMDAwMDAwMDAwMDAwMyI+Cg08ZyBpZD0iU1ZHUmVwb19iZ0NhcnJpZXIiIHN0cm9rZS13aWR0aD0iMCIvPgoNPGcgaWQ9IlNWR1JlcG9fdHJhY2VyQ2FycmllciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cg08ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+Cg08cGF0aCBkPSJNMy42MjQsMTVhOC4wMyw4LjAzLDAsMCwwLDEwLjYxOS42NTlsNS4zMTgsNS4zMThhMSwxLDAsMCwwLDEuNDE0LTEuNDE0bC01LjMxOC01LjMxOEE4LjA0LDguMDQsMCwwLDAsMy42MjQsMy42MjQsOC4wNDIsOC4wNDIsMCwwLDAsMy42MjQsMTVabTEuNDE0LTkuOTZhNi4wNDMsNi4wNDMsMCwxLDEtMS43Nyw0LjI3NEE2LDYsMCwwLDEsNS4wMzgsNS4wMzhaTTQuNjIyLDkuMzExYTEsMSwwLDAsMSwyLDBBMi42OTIsMi42OTIsMCwwLDAsOS4zMTEsMTJhMSwxLDAsMCwxLDAsMkE0LjcsNC43LDAsMCwxLDQuNjIyLDkuMzExWiIvPgoNPC9nPgoNPC9zdmc+" style="height: 24px; width: 24px;">
-                                    <div style="font-size: 14px;">Search Comments</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Main Post end -->
-                        <!-- Comments -->
-                        <div>
-                            <div style="display: flex;">
-                                <div>
-                                    <div><img src="assets/images/profileImages/Defualt.png" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
-                                </div>
-                                <div class="comment" style="display: flex; font-size: 14px;">
-                                    <div>
-                                        <div style="display: flex; align-items: center; flex-direction: row;">
-                                            <div style="display: flex; align-items: center;">
-                                                <div style="font-size: 12px; color: white;">John Stewart</div>
-                                                <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
-                                                <div style="color: rgb(139, 162, 173); font-size: 12px;">6.9 ago</div>
-                                                <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
-                                            </div>
-                                        </div>
-                                        <p style="padding-top: 5px; margin: 0px; padding-bottom: 5px;">Well good news for you lad, I just made a pizza-pizza pie last weekend. It was so mouthwatering that I feel almost obligated to inform your misguided soul of the great bask of a well prepared pizza pie. <br><br>For the dough you’ll need:<br>3 1/2 c flour, 1 Tbs sugar, 2 1/4 tsp yeast, 2 tsp salt, 1 1/2 c warm water (45˚C), 2Tbs olive oil. <br><br>For the sauce you’ll need:<br>1 can (28oz.) whole peeled tomatoes, 2 minced garlics, 1tsp olive oil, 1tsp dried oregano, 1tsp dried basil, 1/2tsp sugar, 1/2tsp salt, 1 tbs tomato paste<br><br>Then you will need:<br>2 c. Mozzarella cheese, 1c. pepperoni, 1 green pepper, 1c. mushrooms, 1/2 c. sliced black olives, and 2 1/2 tbs chopped chives, 1 1/2 tsp olive oil, 1/4 tsp dried oregano, and 8 fresh basil leaves<br><br>For a pizza that you wouldn’t just buy, you would get out of your way to make yourself, you must follow the following instructions: <br><br>Step 1: Before you start cooking anything, you must retrieve all of the materials by any means necessary, legally you should just go to a supermarket and pay your hard-earned money on some of dozen ingredients above, but I’m not one to tell others what to do. <br><br>Step 2: Next you must prepare the dough. As you’ve already obtained the ingredients, you need to activate the yeast. Combine some sugar and yeast with warm water, stirring gently, and letting it sit util it becomes frothy, 5-10min. You may than begin on mixing the dough in a large bowl through combining the flour and salt. Then pouring the yeast mixture and olive oil in a well in the center of the flour. Stir the dough until it’s too stiff to stir with your wooden spoon, then knead it for about 10 minutes, adding flour as needed to make it not so sticky. Place the dough in a lightly oiled bowl and let it rise util fouled in size, about 1 - 1.5 hrs. Shape into balls, depending on how many pizza you desire, and let rest for another 10-15 minutes. You may begin rolling out the dough in preparation of the toppings. <br><br>Step 3: For the sauce, you need to empty the tomatoes into a bowl and crush the living daylights out of them. You then need to heat olive oil over medium heat and add the garlic, cook until fragrant, but not browned, about 1 minute. Your may then combine all the ingredients listed above for the sauce. Finally simmer on low for 20-30 minutes, stirring occasionally. <br><br>Step 4: Spread the sauce on the dough, add the mozzarella, then add the pepperoni, green peppers, mushrooms olives, and other seasonings. You will then bake your pizza until the crust is a golden brown, and the cheese in bubbly and slightly browned. <br><br>Step 5: Bask in the glory of this legendary one-of-a-kind pie. Then invite only your closets allies and feast. </p>
-                                        <div style="display: flex; align-items: center; margin: 0px; padding-bottom: 5px;">
-                                            <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
-                                            <div style="font-size: 12px;">69</div>
-                                            <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
-                                            <div style="display: flex; align-items: center;">
-                                                <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/comments.svg" style="height: 32px; position: absolute; width: 32px;"></div>
-                                                <div style="font-size: 12px;">Reply</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div style="padding-left: 50px;">
-                                <div style="display: flex;">
-                                <div>
-                                    <div><img src="assets/images/profileImages/Defualt.png" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
-                                </div>
-                                <div class="comment" style="display: flex; font-size: 14px;">
-                                    <div>
-                                        <div style="display: flex; align-items: center; flex-direction: row;">
-                                            <div style="display: flex; align-items: center;">
-                                                <div style="font-size: 12px; color: white;">MachoPop</div>
-                                                <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
-                                                <div style="color: rgb(139, 162, 173); font-size: 12px;">4.2mo. ago</div>
-                                                <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
-                                            </div>
-                                        </div>
-                                        <p style="padding-top: 5px; margin: 0px; padding-bottom: 5px;">Looks ok, but what the 1 cup o whole peeled tomatoes mean? 1oz? 12oz? 128oz? This isn’t very clear. I guess all just take a random number generator and use that. (I rolled to use 28)</p>
-                                        <div style="display: flex; align-items: center; margin: 0px; padding-bottom: 5px;">
-                                            <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
-                                            <div style="font-size: 12px;">7</div>
-                                            <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
-                                            <div style="display: flex; align-items: center;">
-                                                <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/comments.svg" style="height: 32px; position: absolute; width: 32px;"></div>
-                                                <div style="font-size: 12px;">Reply</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div><div style="padding-left: 50px;">
-                                <div style="display: flex;">
-                                <div>
-                                    <div><img src="assets/images/profileImages/Defualt.png" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
-                                </div>
-                                <div class="comment" style="display: flex; font-size: 14px;">
-                                    <div>
-                                        <div style="display: flex; align-items: center; flex-direction: row;">
-                                            <div style="display: flex; align-items: center;">
-                                                <div style="font-size: 12px; color: white;">Julia Pi</div>
-                                                <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
-                                                <div style="color: rgb(139, 162, 173); font-size: 12px;">3.14</div>
-                                                <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
-                                            </div>
-                                        </div>
-                                        <p style="padding-top: 5px; margin: 0px; padding-bottom: 5px;">Thats a splendid pizza pie, but I’m just worried about the potential advertisement of this godly recipe.</p>
-                                        <div style="display: flex; align-items: center; margin: 0px; padding-bottom: 5px;">
-                                            <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
-                                            <div style="font-size: 12px;">314</div>
-                                            <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
-                                            <div style="display: flex; align-items: center;">
-                                                <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/comments.svg" style="height: 32px; position: absolute; width: 32px;"></div>
-                                                <div style="font-size: 12px;">Reply</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div><div style="padding-left: 50px;">
-                                <div style="padding-left: 50px;">
-                                <div style="display: flex;">
-                                <div>
-                                    <div><img src="assets/images/profileImages/Defualt.png" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
-                                </div>
-                                <div class="comment" style="display: flex; font-size: 14px;">
-                                    <div>
-                                        <div style="display: flex; align-items: center; flex-direction: row;">
-                                            <div style="display: flex; align-items: center;">
-                                                <div style="font-size: 12px; color: white;">ThetaTRON</div>
-                                                <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
-                                                <div style="color: rgb(139, 162, 173); font-size: 12px;">5 days ago</div>
-                                                <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
-                                            </div>
-                                        </div>
-                                        <p style="padding-top: 5px; margin: 0px; padding-bottom: 5px;">I know right. Advertising causes therapy to even the most agile of people. Always pushing us to buy every minute and every second.</p>
-                                        <div style="display: flex; align-items: center; margin: 0px; padding-bottom: 5px;">
-                                            <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
-                                            <div style="font-size: 12px;">5</div>
-                                            <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
-                                            <div style="display: flex; align-items: center;">
-                                                <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/comments.svg" style="height: 32px; position: absolute; width: 32px;"></div>
-                                                <div style="font-size: 12px;">Reply</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                            </div><div style="display: flex;">
-                                <div>
-                                    <div><img src="assets/images/profileImages/Defualt.png" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
-                                </div>
-                                <div class="comment" style="display: flex; font-size: 14px;">
-                                    <div>
-                                        <div style="display: flex; align-items: center; flex-direction: row;">
-                                            <div style="display: flex; align-items: center;">
-                                                <div style="font-size: 12px; color: white;">Burt</div>
-                                                <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
-                                                <div style="color: rgb(139, 162, 173); font-size: 12px;">5.3mo. ago</div>
-                                                <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
-                                            </div>
-                                        </div>
-                                        <p style="padding-top: 5px; margin: 0px; padding-bottom: 5px;">My adjacent uncle in law, who happens to be 1/6 Italian and 3/4 New Yorker, had a great recipe for a chicken stew. Unfortunately, in 1978, he needed therapy, caused by advertising. This therapy, of the electric variation, got him yapping about some ballgame in the refrigerator, the door closing, lights going out, and butter getting hard. Oh well. At least we have this wonderful pizza pie recipe with pepperoni and green pepper, mushrooms, olives, chives, that makes you buy every minute and second.</p>
-                                        <div style="display: flex; align-items: center; margin: 0px; padding-bottom: 5px;">
-                                            <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
-                                            <div style="font-size: 12px;">8</div>
-                                            <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
-                                            <div style="display: flex; align-items: center;">
-                                                <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/comments.svg" style="height: 32px; position: absolute; width: 32px;"></div>
-                                                <div style="font-size: 12px;">Reply</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div style="padding-left: 50px;">
-                                <div style="display: flex;">
-                                <div>
-                                    <div><img src="assets/images/profileImages/Defualt.png" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
-                                </div>
-                                <div class="comment" style="display: flex; font-size: 14px;">
-                                    <div>
-                                        <div style="display: flex; align-items: center; flex-direction: row;">
-                                            <div style="display: flex; align-items: center;">
-                                                <div style="font-size: 12px; color: white;">Ernie</div>
-                                                <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
-                                                <div style="color: rgb(139, 162, 173); font-size: 12px;">16 hrs ago</div>
-                                                <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
-                                            </div>
-                                        </div>
-                                        <p style="padding-top: 5px; margin: 0px; padding-bottom: 5px;">Adjacent uncle-in-law is crazy. I envy for this mutt of Italian and New Yorker. God knows how many people he’s bitten under the influence of advertising.</p>
-                                        <div style="display: flex; align-items: center; margin: 0px; padding-bottom: 5px;">
-                                            <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
-                                            <div style="font-size: 12px;">999</div>
-                                            <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
-                                            <div style="display: flex; align-items: center;">
-                                                <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/comments.svg" style="height: 32px; position: absolute; width: 32px;"></div>
-                                                <div style="font-size: 12px;">Reply</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <!-- End Of Comments -->
-                    </div>
-                </div>
+                <div style="font-size: 14px; height: 40px; display: flex; align-items: center; justify-content: center; background-color: #7D8596; border-radius: 50px; width: 67px; flex: 1 1 0%; color: white;">Log In</div>
+                <img src="assets/images/symbols/threeDots.svg" style="height: auto; padding-right: 10px; width: 15px; padding-left: 10px;">
             </div>
         </div>
+        <!-- Top Bar End -->
+    </header>
+    <div style="display: flex;">
+        <!-- Left Side Bar -->
+        <header class="sidebar" style="height: 100vh; overflow-y: scroll;">
+            <div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/house.svg" style="height: auto; padding: 10px; width: 32px;">
+                <a>Home</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/popular.svg" style="height: auto; padding: 10px; width: 32px;">
+                <a>Popular</a>
+                </div>
+            </div>
+        
+        
+            <div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/viral.svg" style="height: auto; padding: 10px; width: 32px;">
+                <a>Viral</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/games.svg" style="height: auto; padding: 10px; width: 32px;">
+                <a>Games</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/q&as.svg" style="height: auto; padding: 10px; width: 32px;">
+                <a>Q&As</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/technology.svg" style="height: auto; padding: 10px; width: 32px;">
+                <a>Technology</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
+                <a>Pop Culture</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/movies & tv.svg" style="height: auto; padding: 10px; width: 32px;">
+                <a>Movies & TV</a>
+                </div>
+            </div>
+        
+            <div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
+                <a>About Seddit</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
+                <a>Advertise</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
+                <a>Help</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
+                <a>Blog</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
+                <a>Careers</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
+                <a>Press</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
+                <a>Communites</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
+                <a>Best of Reddit</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/" style="height: auto; padding: 10px; width: 32px;">
+                <a>Topics</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/policy.svg" style="height: auto; padding: 10px; width: 32px;">
+                <a>Content Policy</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/policy.svg" style="height: auto; padding: 10px; width: 32px;">
+                <a>Privacy Policy</a>
+                </div>
+                <div class="leftSideBarButton">
+                <img src="assets/images/symbols/sidebar/policy.svg" style="height: auto; padding: 10px; width: 32px;">
+                <a>User Agreement</a>
+                </div>
+            </div>
+            <!-- Left Side Bar End -->
+        </header>
+        
+        <div class="sideBarLine"></div>
+
+        <div style="display: flex ;margin: 24px; justify-content: center">
+            <!-- Main Post -->
+            <div style="max-width: 730px; margin-right: 25px;">
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <div style="margin-top: 8px; display: flex; align-items: center;">
+                        <a href="https://implodedpotato.com"> <img src="assets/images/symbols/backArrow.png" style="height: auto; border-radius: 50%; width: 32px; margin-right: 10px; background-color: rgb(43, 50, 54);"></a>
+                        <div><img src="assets/images/profileImages/Defualt.png" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
+                        <div style="display: flex; color: white; flex-direction: column;">
+                            <div style="display: flex; align-items: center; flex-direction: row;">
+                                <div style="color: rgb(184, 202, 212); font-size: 12px; font-weight: bold;">s/Old_Recipies</div>
+                                <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 10px;">•</div>
+                                <div style="color: rgb(139, 162, 173); font-size: 9px;">6.9 mo. ago</div>
+                            </div>
+                            <div style="color: rgb(184, 202, 212); font-size: 10px;">John Doe</div>
+                        </div>
+                    </div>
+                    <img src="assets/images/symbols/threeDots.svg" style="height: auto; width: 10px;">
+                </div>
+                <h1 style="color: white; font-size: 18px; margin: 0px 0px 16px;">Does anyone have a pizza recipe you would just die for?</h1>
+                <p style="margin-top: 5px; color: rgb(184, 202, 212); font-size: 14px;">Im looking for a recipe that would just make your go, “What a splendid pie, pizza-pizza pie”. One where it’s curst is so fluffy, it’s sauce so saucy, it’s toppings so extravagant that every minute and every second, you would would “buy buy buy buy buy”. Normal recipes and Pizza Huts are just a total let down of the traditional masterpiece.</p>
+                <div style="display: flex; padding-top: 16px;">
+                    <div class="opinteractionButtons">
+                        <img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; width: 32px;">
+                        <div style="color: white; font-size: 12px;">41</div>
+                        <img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; width: 32px;">
+                    </div>
+                    <div class="opinteractionButtons" style="display: flex; align-items: center; margin-right: 16px; flex-direction: row;">
+                        <div style="height: 32px; display: flex; align-items: center; width: 32px; justify-content: center;"><img src="data:image/svg+xml;Base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9Ii0xNiAtMTYgNjQuMDAgNjQuMDAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iI2ZmZmZmZiI+Cg08ZyBpZD0iU1ZHUmVwb19iZ0NhcnJpZXIiIHN0cm9rZS13aWR0aD0iMCIvPgoNPGcgaWQ9IlNWR1JlcG9fdHJhY2VyQ2FycmllciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cg08ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+IDx0aXRsZT5jb21tZW50LTI8L3RpdGxlPiA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoIEJldGEuPC9kZXNjPiA8ZGVmcz4gPC9kZWZzPiA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBza2V0Y2g6dHlwZT0iTVNQYWdlIj4gPGcgaWQ9Ikljb24tU2V0IiBza2V0Y2g6dHlwZT0iTVNMYXllckdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTUyLjAwMDAwMCwgLTI1NS4wMDAwMDApIiBmaWxsPSIjZmZmZmZmIj4gPHBhdGggZD0iTTE2OCwyODEgQzE2Ni44MzIsMjgxIDE2NS43MDQsMjgwLjg2NCAxNjQuNjIsMjgwLjYzMyBMMTU5LjkxMiwyODMuNDYzIEwxNTkuOTc1LDI3OC44MjQgQzE1Ni4zNjYsMjc2LjY1NCAxNTQsMjczLjA2NiAxNTQsMjY5IEMxNTQsMjYyLjM3MyAxNjAuMjY4LDI1NyAxNjgsMjU3IEMxNzUuNzMyLDI1NyAxODIsMjYyLjM3MyAxODIsMjY5IEMxODIsMjc1LjYyOCAxNzUuNzMyLDI4MSAxNjgsMjgxIEwxNjgsMjgxIFogTTE2OCwyNTUgQzE1OS4xNjQsMjU1IDE1MiwyNjEuMjY5IDE1MiwyNjkgQzE1MiwyNzMuNDE5IDE1NC4zNDUsMjc3LjM1NCAxNTgsMjc5LjkxOSBMMTU4LDI4NyBMMTY1LjAwOSwyODIuNzQ3IEMxNjUuOTc5LDI4Mi45MDcgMTY2Ljk3NywyODMgMTY4LDI4MyBDMTc2LjgzNiwyODMgMTg0LDI3Ni43MzIgMTg0LDI2OSBDMTg0LDI2MS4yNjkgMTc2LjgzNiwyNTUgMTY4LDI1NSBMMTY4LDI1NSBaIE0xNzUsMjY2IEwxNjEsMjY2IEMxNjAuNDQ4LDI2NiAxNjAsMjY2LjQ0OCAxNjAsMjY3IEMxNjAsMjY3LjU1MyAxNjAuNDQ4LDI2OCAxNjEsMjY4IEwxNzUsMjY4IEMxNzUuNTUyLDI2OCAxNzYsMjY3LjU1MyAxNzYsMjY3IEMxNzYsMjY2LjQ0OCAxNzUuNTUyLDI2NiAxNzUsMjY2IEwxNzUsMjY2IFogTTE3MywyNzIgTDE2MywyNzIgQzE2Mi40NDgsMjcyIDE2MiwyNzIuNDQ3IDE2MiwyNzMgQzE2MiwyNzMuNTUzIDE2Mi40NDgsMjc0IDE2MywyNzQgTDE3MywyNzQgQzE3My41NTIsMjc0IDE3NCwyNzMuNTUzIDE3NCwyNzMgQzE3NCwyNzIuNDQ3IDE3My41NTIsMjcyIDE3MywyNzIgTDE3MywyNzIgWiIgaWQ9ImNvbW1lbnQtMiIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+IDwvcGF0aD4gPC9nPiA8L2c+IDwvZz4KDTwvc3ZnPg==" style="height: 32px; position: absolute; width: 32px;"></div>
+                        <div style="color: white; font-size: 12px; margin-right: 10px;">60</div>
+                    </div>
+                    <div class="opinteractionButtons" style="display: flex; align-items: center; justify-content: center;">
+                        <div style="height: 32px; display: flex; align-items: center; width: 32px; justify-content: center;"><img src="data:image/svg+xml;Base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyNS4wMCAyNS4wMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBzdHJva2U9IiNmZmZmZmYiPgoNPGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiLz4KDTxnIGlkPSJTVkdSZXBvX3RyYWNlckNhcnJpZXIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgoNPGcgaWQ9IlNWR1JlcG9faWNvbkNhcnJpZXIiPiA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE0LjczNCAxNS44OTc0TDE5LjIyIDEyLjEzNzRDMTkuMzk3MSAxMS45OTI3IDE5LjQ5OTggMTEuNzc2MSAxOS40OTk4IDExLjU0NzRDMTkuNDk5OCAxMS4zMTg3IDE5LjM5NzEgMTEuMTAyMiAxOS4yMiAxMC45NTc0TDE0LjczNCA3LjE5NzQzQzE0LjQ5NDcgNi45OTI5IDE0LjE1OTggNi45NDI3NSAxMy44NzExIDcuMDY4MjZDMTMuNTgyNCA3LjE5Mzc3IDEzLjM5MDYgNy40NzI5NSAxMy4zNzcgNy43ODc0M1Y5LjI3MDQzQzcuMDc5IDguMTc5NDMgNS41IDEzLjgxNTQgNS41IDE2Ljk5NzRDNi45NjEgMTQuNTczNCAxMC43NDcgMTAuMTc5NCAxMy4zNzcgMTMuODE1NFYxNS4zMDI0QzEzLjM4ODggMTUuNjE3OCAxMy41Nzk5IDE1Ljg5ODcgMTMuODY4OSAxNi4wMjU0QzE0LjE1OCAxNi4xNTIxIDE0LjQ5NCAxNi4xMDI0IDE0LjczNCAxNS44OTc0WiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+IDwvZz4KDTwvc3ZnPg==" style="height: 24px; position: absolute; width: 24px;"></div>
+                        <div style="color: white; font-size: 12px; margin-right: 10px;">Share</div>
+                    </div>
+                </div>
+                <div style="margin-top: 20px; margin-bottom: 25px;">
+                    <div class="addCommentBorder" style="margin-bottom: 10px; height: 40px; display: flex; align-items: center; width: 160px; justify-content: center;">
+                        <div style="height: 30px; display: flex; align-items: center; width: 30px; justify-content: center;"><img src="assets/images/symbols/plus.svg" style="height: 30px; position: absolute; width: 30px;"></div>
+                        <div style="color: white; font-size: 14px; margin-right: 10px; padding-left: 5px;">Add A Comment</div>
+                    </div>
+                    <div style="display: flex; align-items: center; color: rgb(134, 155, 167); font-size: 12px;">
+                        <div>Sort By: </div>
+                        <div class="sortButton" style="height: 32px; display: flex; align-items: center; width: 65px; justify-content: center;">
+                            <div style="font-weight: bold;">Best</div><img src="data:image/svg+xml;Base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyNC4wMCAyNC4wMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBzdHJva2U9IiNmZmZmZmYiPgoNPGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiLz4KDTxnIGlkPSJTVkdSZXBvX3RyYWNlckNhcnJpZXIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgoNPGcgaWQ9IlNWR1JlcG9faWNvbkNhcnJpZXIiPiA8cGF0aCBkPSJNNyAxMEwxMiAxNUwxNyAxMCIgc3Ryb2tlPSIjQjhDQUQ0IiBzdHJva2Utd2lkdGg9IjEuOTIwMDAwMDAwMDAwMDAwNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+IDwvZz4KDTwvc3ZnPg==" style="height: 16px; width: 16px; margin-left: 4px;"></div>
+                        <div class="searchBorder" style="height: 40px; display: flex; align-items: center; width: 185px; margin-left: 10px; justify-content: center;"><img src="data:image/svg+xml;Base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyBmaWxsPSIjNzU4NzkxIiB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBzdHJva2U9IiM4NjlCQTciIHN0cm9rZS13aWR0aD0iMC4wMDAyNDAwMDAwMDAwMDAwMDAwMyI+Cg08ZyBpZD0iU1ZHUmVwb19iZ0NhcnJpZXIiIHN0cm9rZS13aWR0aD0iMCIvPgoNPGcgaWQ9IlNWR1JlcG9fdHJhY2VyQ2FycmllciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cg08ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+Cg08cGF0aCBkPSJNMy42MjQsMTVhOC4wMyw4LjAzLDAsMCwwLDEwLjYxOS42NTlsNS4zMTgsNS4zMThhMSwxLDAsMCwwLDEuNDE0LTEuNDE0bC01LjMxOC01LjMxOEE4LjA0LDguMDQsMCwwLDAsMy42MjQsMy42MjQsOC4wNDIsOC4wNDIsMCwwLDAsMy42MjQsMTVabTEuNDE0LTkuOTZhNi4wNDMsNi4wNDMsMCwxLDEtMS43Nyw0LjI3NEE2LDYsMCwwLDEsNS4wMzgsNS4wMzhaTTQuNjIyLDkuMzExYTEsMSwwLDAsMSwyLDBBMi42OTIsMi42OTIsMCwwLDAsOS4zMTEsMTJhMSwxLDAsMCwxLDAsMkE0LjcsNC43LDAsMCwxLDQuNjIyLDkuMzExWiIvPgoNPC9nPgoNPC9zdmc+" style="height: 24px; width: 24px;">
+                            <div style="font-size: 14px;">Search Comments</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Main Post end -->
+                <!-- Comments -->
+                <div>
+                    <div style="display: flex;">
+                        <div>
+                            <div><img src="assets/images/profileImages/Defualt.png" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
+                        </div>
+                        <div class="comment" style="display: flex; font-size: 14px;">
+                            <div>
+                                <div style="display: flex; align-items: center; flex-direction: row;">
+                                    <div style="display: flex; align-items: center;">
+                                        <div style="font-size: 12px; color: white;">John Stewart</div>
+                                        <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
+                                        <div style="color: rgb(139, 162, 173); font-size: 12px;">6.9 ago</div>
+                                        <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
+                                    </div>
+                                </div>
+                                <p style="padding-top: 5px; margin: 0px; padding-bottom: 5px;">Well good news for you lad, I just made a pizza-pizza pie last weekend. It was so mouthwatering that I feel almost obligated to inform your misguided soul of the great bask of a well prepared pizza pie. <br><br>For the dough you’ll need:<br>3 1/2 c flour, 1 Tbs sugar, 2 1/4 tsp yeast, 2 tsp salt, 1 1/2 c warm water (45˚C), 2Tbs olive oil. <br><br>For the sauce you’ll need:<br>1 can (28oz.) whole peeled tomatoes, 2 minced garlics, 1tsp olive oil, 1tsp dried oregano, 1tsp dried basil, 1/2tsp sugar, 1/2tsp salt, 1 tbs tomato paste<br><br>Then you will need:<br>2 c. Mozzarella cheese, 1c. pepperoni, 1 green pepper, 1c. mushrooms, 1/2 c. sliced black olives, and 2 1/2 tbs chopped chives, 1 1/2 tsp olive oil, 1/4 tsp dried oregano, and 8 fresh basil leaves<br><br>For a pizza that you wouldn’t just buy, you would get out of your way to make yourself, you must follow the following instructions: <br><br>Step 1: Before you start cooking anything, you must retrieve all of the materials by any means necessary, legally you should just go to a supermarket and pay your hard-earned money on some of dozen ingredients above, but I’m not one to tell others what to do. <br><br>Step 2: Next you must prepare the dough. As you’ve already obtained the ingredients, you need to activate the yeast. Combine some sugar and yeast with warm water, stirring gently, and letting it sit util it becomes frothy, 5-10min. You may than begin on mixing the dough in a large bowl through combining the flour and salt. Then pouring the yeast mixture and olive oil in a well in the center of the flour. Stir the dough until it’s too stiff to stir with your wooden spoon, then knead it for about 10 minutes, adding flour as needed to make it not so sticky. Place the dough in a lightly oiled bowl and let it rise util fouled in size, about 1 - 1.5 hrs. Shape into balls, depending on how many pizza you desire, and let rest for another 10-15 minutes. You may begin rolling out the dough in preparation of the toppings. <br><br>Step 3: For the sauce, you need to empty the tomatoes into a bowl and crush the living daylights out of them. You then need to heat olive oil over medium heat and add the garlic, cook until fragrant, but not browned, about 1 minute. Your may then combine all the ingredients listed above for the sauce. Finally simmer on low for 20-30 minutes, stirring occasionally. <br><br>Step 4: Spread the sauce on the dough, add the mozzarella, then add the pepperoni, green peppers, mushrooms olives, and other seasonings. You will then bake your pizza until the crust is a golden brown, and the cheese in bubbly and slightly browned. <br><br>Step 5: Bask in the glory of this legendary one-of-a-kind pie. Then invite only your closets allies and feast. </p>
+                                <div style="display: flex; align-items: center; margin: 0px; padding-bottom: 5px;">
+                                    <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
+                                    <div style="font-size: 12px;">69</div>
+                                    <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
+                                    <div style="display: flex; align-items: center;">
+                                        <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/comments.svg" style="height: 32px; position: absolute; width: 32px;"></div>
+                                        <div style="font-size: 12px;">Reply</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div style="padding-left: 50px;">
+                        <div style="display: flex;">
+                        <div>
+                            <div><img src="assets/images/profileImages/Defualt.png" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
+                        </div>
+                        <div class="comment" style="display: flex; font-size: 14px;">
+                            <div>
+                                <div style="display: flex; align-items: center; flex-direction: row;">
+                                    <div style="display: flex; align-items: center;">
+                                        <div style="font-size: 12px; color: white;">MachoPop</div>
+                                        <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
+                                        <div style="color: rgb(139, 162, 173); font-size: 12px;">4.2mo. ago</div>
+                                        <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
+                                    </div>
+                                </div>
+                                <p style="padding-top: 5px; margin: 0px; padding-bottom: 5px;">Looks ok, but what the 1 cup o whole peeled tomatoes mean? 1oz? 12oz? 128oz? This isn’t very clear. I guess all just take a random number generator and use that. (I rolled to use 28)</p>
+                                <div style="display: flex; align-items: center; margin: 0px; padding-bottom: 5px;">
+                                    <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
+                                    <div style="font-size: 12px;">7</div>
+                                    <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
+                                    <div style="display: flex; align-items: center;">
+                                        <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/comments.svg" style="height: 32px; position: absolute; width: 32px;"></div>
+                                        <div style="font-size: 12px;">Reply</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div><div style="padding-left: 50px;">
+                        <div style="display: flex;">
+                        <div>
+                            <div><img src="assets/images/profileImages/Defualt.png" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
+                        </div>
+                        <div class="comment" style="display: flex; font-size: 14px;">
+                            <div>
+                                <div style="display: flex; align-items: center; flex-direction: row;">
+                                    <div style="display: flex; align-items: center;">
+                                        <div style="font-size: 12px; color: white;">Julia Pi</div>
+                                        <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
+                                        <div style="color: rgb(139, 162, 173); font-size: 12px;">3.14</div>
+                                        <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
+                                    </div>
+                                </div>
+                                <p style="padding-top: 5px; margin: 0px; padding-bottom: 5px;">Thats a splendid pizza pie, but I’m just worried about the potential advertisement of this godly recipe.</p>
+                                <div style="display: flex; align-items: center; margin: 0px; padding-bottom: 5px;">
+                                    <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
+                                    <div style="font-size: 12px;">314</div>
+                                    <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
+                                    <div style="display: flex; align-items: center;">
+                                        <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/comments.svg" style="height: 32px; position: absolute; width: 32px;"></div>
+                                        <div style="font-size: 12px;">Reply</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div><div style="padding-left: 50px;">
+                        <div style="padding-left: 50px;">
+                        <div style="display: flex;">
+                        <div>
+                            <div><img src="assets/images/profileImages/Defualt.png" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
+                        </div>
+                        <div class="comment" style="display: flex; font-size: 14px;">
+                            <div>
+                                <div style="display: flex; align-items: center; flex-direction: row;">
+                                    <div style="display: flex; align-items: center;">
+                                        <div style="font-size: 12px; color: white;">ThetaTRON</div>
+                                        <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
+                                        <div style="color: rgb(139, 162, 173); font-size: 12px;">5 days ago</div>
+                                        <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
+                                    </div>
+                                </div>
+                                <p style="padding-top: 5px; margin: 0px; padding-bottom: 5px;">I know right. Advertising causes therapy to even the most agile of people. Always pushing us to buy every minute and every second.</p>
+                                <div style="display: flex; align-items: center; margin: 0px; padding-bottom: 5px;">
+                                    <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
+                                    <div style="font-size: 12px;">5</div>
+                                    <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
+                                    <div style="display: flex; align-items: center;">
+                                        <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/comments.svg" style="height: 32px; position: absolute; width: 32px;"></div>
+                                        <div style="font-size: 12px;">Reply</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div><div style="display: flex;">
+                        <div>
+                            <div><img src="assets/images/profileImages/Defualt.png" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
+                        </div>
+                        <div class="comment" style="display: flex; font-size: 14px;">
+                            <div>
+                                <div style="display: flex; align-items: center; flex-direction: row;">
+                                    <div style="display: flex; align-items: center;">
+                                        <div style="font-size: 12px; color: white;">Burt</div>
+                                        <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
+                                        <div style="color: rgb(139, 162, 173); font-size: 12px;">5.3mo. ago</div>
+                                        <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
+                                    </div>
+                                </div>
+                                <p style="padding-top: 5px; margin: 0px; padding-bottom: 5px;">My adjacent uncle in law, who happens to be 1/6 Italian and 3/4 New Yorker, had a great recipe for a chicken stew. Unfortunately, in 1978, he needed therapy, caused by advertising. This therapy, of the electric variation, got him yapping about some ballgame in the refrigerator, the door closing, lights going out, and butter getting hard. Oh well. At least we have this wonderful pizza pie recipe with pepperoni and green pepper, mushrooms, olives, chives, that makes you buy every minute and second.</p>
+                                <div style="display: flex; align-items: center; margin: 0px; padding-bottom: 5px;">
+                                    <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
+                                    <div style="font-size: 12px;">8</div>
+                                    <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
+                                    <div style="display: flex; align-items: center;">
+                                        <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/comments.svg" style="height: 32px; position: absolute; width: 32px;"></div>
+                                        <div style="font-size: 12px;">Reply</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div style="padding-left: 50px;">
+                        <div style="display: flex;">
+                        <div>
+                            <div><img src="assets/images/profileImages/Defualt.png" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
+                        </div>
+                        <div class="comment" style="display: flex; font-size: 14px;">
+                            <div>
+                                <div style="display: flex; align-items: center; flex-direction: row;">
+                                    <div style="display: flex; align-items: center;">
+                                        <div style="font-size: 12px; color: white;">Ernie</div>
+                                        <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
+                                        <div style="color: rgb(139, 162, 173); font-size: 12px;">16 hrs ago</div>
+                                        <div style="padding: 5px; color: rgb(139, 162, 173); font-size: 12px;">•</div>
+                                    </div>
+                                </div>
+                                <p style="padding-top: 5px; margin: 0px; padding-bottom: 5px;">Adjacent uncle-in-law is crazy. I envy for this mutt of Italian and New Yorker. God knows how many people he’s bitten under the influence of advertising.</p>
+                                <div style="display: flex; align-items: center; margin: 0px; padding-bottom: 5px;">
+                                    <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
+                                    <div style="font-size: 12px;">999</div>
+                                    <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; position: absolute; width: 32px;"></div>
+                                    <div style="display: flex; align-items: center;">
+                                        <div class="interactionButtons" style="height: 32px; display: flex; align-items: center; border-radius: 50%; width: 32px; justify-content: center;"><img src="assets/images/symbols/comments.svg" style="height: 32px; position: absolute; width: 32px;"></div>
+                                        <div style="font-size: 12px;">Reply</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- End Of Comments -->
+            </div>
+        </div>
+        <!-- Right Glob -->
+        <header class="rightSideBar" style="color: white; height: 100vh; overflow-y: scroll;">
+            <div style="background-color: #0A0B0D; border-radius: 25px; height: 220px; background-color: #0A0B0D; padding: 16px; ">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>s/Old_Recipes</div>
+                    <div style="background-color: #54758A; padding: 5px 15px 5px 15px; border-radius: 40px;">Join</div>
+                </div>
+                <div style="font-size: 15px; margin-top: 10px;">Post any recipes of considerble age | NO Advertisement | Violaters will pay for all therapy</div>
+                <div style="font-size: 14px; margin-top: 5px; color: #95ABAF;">Post anything splendid you would like to share, relating to food</div>
+                <div style="display: flex; margin-top: 10px; margin-bottom: 10px; align-items: center;">
+                    <img style="width: 16px; margin-right: 5px;" src="assets/images/symbols/globe.svg">
+                    <div style="font-size: 12px; color: #95ABAF;">Public</div>
+                </div>
+            </div>
+            <!-- Right Glob End -->
+        </header>
     </div>
 </div>
 

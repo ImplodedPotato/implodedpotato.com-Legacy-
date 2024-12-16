@@ -109,16 +109,34 @@ body {
 
 .searchSeddit {
     font-size: medium;
-    min-width: 110px;
+    min-width: 100px;
+    margin: 40px
+}
+
+.logo {
+    height: 40px; 
+    width: 125px;
 }
 
 @media (max-width: 460px) {
     .searchSeddit {
         font-size: small;
     }
+    .logo {
+        height: 35px; 
+        width: 110px;
+    }
+    .searchSeddit {
+        margin: 30px;
+    }
 }
 
-.mainContent {
-    margin: 24px;
-    max-width: 730px;
+.rightSideBar {
+    width: 280px; 
+}
+
+@media (max-width: 850px) {
+    .rightSideBar {
+        width: 0;
+    }
 }

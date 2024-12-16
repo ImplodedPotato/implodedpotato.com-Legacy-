@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+
+<svg
+   fill="#ffffff"
+   width="800px"
+   height="800px"
+   viewBox="-2 0 19 19"
+   class="cf-icon-svg"
+   stroke="#ffffff"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="policy.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch8"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop8" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.41931412"
+     inkscape:cx="364.88159"
+     inkscape:cy="269.48771"
+     inkscape:window-width="1280"
+     inkscape:window-height="915"
+     inkscape:window-x="263"
+     inkscape:window-y="145"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <path
+     d="m 14.261501,3.99 a 1.615,1.615 0 0 1 -1.613,1.614 h -0.506 v 8.396001 a 1.615,1.615 0 0 1 -1.613,1.613 H 1.9885 a 1.6135,1.6135 0 1 1 0,-3.227 h 0.505 V 3.99 a 1.615,1.615 0 0 1 1.614,-1.615 h 8.540001 a 1.615,1.615 0 0 1 1.614,1.614 z M 1.9885,14.505001 h 7.0069997 a 1.612,1.612 0 0 1 0,-1.01 H 1.9905 a 0.505,0.505 0 0 0 0,1.01 z M 11.033501,3.99 a 1.62,1.62 0 0 1 0.08,-0.505 H 4.1085 a 0.5,0.5 0 0 0 -0.31,0.107 L 3.7965,3.593 A 0.5,0.5 0 0 0 3.6035,3.99 v 8.396001 h 6.3370007 a 0.61,0.61 0 0 1 0.6000003,0.467 0.632,0.632 0 0 1 -0.251,0.702 0.505,0.505 0 1 0 0.746,0.445 z m -0.86,1.438 H 4.4135 v 1.107 h 5.760001 z m 0,2.2600005 H 4.4135 v 1.1070008 h 5.760001 z m 0,2.2600008 H 4.4135 v 1.1079997 h 5.760001 z M 13.152501,3.99 a 0.506,0.506 0 0 0 -0.505,-0.505 0.496,0.496 0 0 0 -0.31,0.107 h -0.002 a 0.501,0.501 0 0 0 -0.194,0.398 v 0.505 h 0.506 a 0.506,0.506 0 0 0 0.505,-0.505 z"
+     id="path1"
+     style="stroke-opacity:1;stroke-dasharray:none;stroke-width:0;fill:#ffffff;opacity:1;" />
+  <g
+     id="SVGRepo_iconCarrier" />
+</svg>
