@@ -7,6 +7,31 @@ body {
     font-family: Arial, sans-serif;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#logo {
+    color: white; 
+    font-size: large; 
+    background-color: #54758A; 
+    border-radius: 8px;
+    padding: 8px;
+    font-style: italic;
+}
+
 .leftSideBarButton {
     background: none;
     color: white;
@@ -113,11 +138,6 @@ body {
     margin: 40px
 }
 
-.logo {
-    height: 40px; 
-    width: 125px;
-}
-
 .mainContent {
     margin: 24px
 }
@@ -128,9 +148,8 @@ body {
     .searchSeddit {
         font-size: small;
     }
-    .logo {
-        height: 35px; 
-        width: 110px;
+    #logo {
+        font-size: medium; 
     }
     .searchSeddit {
         margin: 30px;
