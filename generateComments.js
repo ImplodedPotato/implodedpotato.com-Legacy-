@@ -2,10 +2,7 @@ function generateComments() {
     fetch('https://implodedpotato.com/responses.json')
         .then(response => response.json())
         .then(data => {
-            // console.log(data.responses); 
             document.getElementById("responses").innerHTML = generateResponses(data.responses)
-
-
         })
         .catch(error => console.error('Error loading JSON:', error));
 }
