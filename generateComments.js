@@ -13,7 +13,7 @@ function generateResponse(i) {
     <div>
         <div><img src="assets/images/profileImages/${i.pfp}" style="height: 32px; border-radius: 50%; width: 32px; margin-right: 10px;"></div>
     </div>
-    <div class="comment" style="display: flex; font-size: 14px;">
+    <div class="color: #D7E5E5;" style="display: flex; font-size: 14px;">
         <div>
             <div style="display: flex; align-items: center; flex-direction: row;">
                 <div style="display: flex; align-items: center;">

@@ -7,6 +7,8 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Element-Wide */
+
 a:link {
     text-decoration: none;
 }
@@ -23,6 +25,9 @@ a:active {
     text-decoration: none;
 }
 
+
+/* IDs */
+
 #logo {
     color: white; 
     font-size: large; 
@@ -31,6 +36,123 @@ a:active {
     padding: 8px;
     font-style: italic;
 }
+#logo:hover {
+    background-color: #5A8BAA; 
+}
+
+#searchSeddit {
+    font-size: medium;
+    min-width: 100px;
+    margin: 40px;
+    height: 40px;
+    display: flex; 
+    align-items: center; 
+    max-width: 560px; 
+    justify-content: center; 
+    background-color: rgb(43, 50, 54); 
+    border-radius: 50px; 
+    flex: 1 1 0%; 
+    color: rgb(137, 160, 170);
+}
+@media (max-width: 460px) {
+    #searchSeddit {
+        font-size: small;
+        margin: 30px;
+    }
+    #logo {
+        font-size: medium; 
+    }
+}
+
+#logIn {
+    font-size: 14px; 
+    height: 40px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #54758A; 
+    border-radius: 50px; 
+    width: 67px; 
+    flex: 1 1 0%; 
+    color: white;
+}
+#logIn:hover {
+    background-color: #5A8BAA; 
+}
+
+
+#sidebar {
+    width: 240px;
+    padding: 30px;
+    height: 100vh; 
+    overflow-y: scroll;
+}
+@media (max-width: 1200px) {
+    #sidebar {
+        display: none;
+    }
+}
+
+#sideBarLine {
+    height: auto;
+    border: 1px solid #3F4142;
+    margin: 3px;
+    display:inline-block;
+}
+@media (max-width: 1200px) {
+    #sideBarLine {
+       display: none;
+    }
+}
+
+#addCommentButton {
+    border: 1px solid #868889;
+    border-radius: 30px;
+    margin-bottom: 10px; 
+    height: 40px; 
+    display: flex; 
+    align-items: center; 
+    width: 160px; 
+    justify-content: center;
+}
+#addCommentButton:hover {
+    border: 1px solid white;
+}
+
+#sortButton {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+}
+#sortButton:hover {
+    background-color: #333D41;
+}
+
+#searchComments {
+    border: 1px solid #27282A;
+    border-radius: 30px;
+    height: 40px; 
+    display: flex; 
+    align-items: center; 
+    width: 185px; 
+    margin-left: 10px; 
+    justify-content: center;
+}
+#searchComments:hover{
+    border: 1px solid #8BA2AD;
+}
+
+#rightSideBar {
+    width: 280px; 
+    margin: 24px;
+    color: white;
+}
+@media (max-width: 940px) {
+    #rightSideBar {
+        display: none;
+    }
+}
+
+/* Classes */
 
 .leftSideBarButton {
     background: none;
@@ -43,7 +165,6 @@ a:active {
     cursor: pointer;
     flex-direction: row
 }
-
 .leftSideBarButton:hover {
     background-color: #181C1F;
 }
@@ -51,21 +172,8 @@ a:active {
 .interactionButtons {
     background-color: rgba(0, 0, 0, 0);
 }
-
-.comment {
-    color: #D7E5E5;
-}
-
 .interactionButtons:hover {
     background-color: #333D41;
-}
-
-.upArrowColor {
-    color: white;
-}
-
-.downArrowColor {
-    color: white;
 }
 
 .opinteractionButtons {
@@ -78,99 +186,4 @@ a:active {
 
 .opinteractionButtons:hover {
     background-color: #333D41;
-}
-
-.addCommentBorder {
-    border: 1px solid #868889;
-    border-radius: 30px;
-}
-
-.addCommentBorder:hover {
-    border: 1px solid white;
-}
-
-.sortButton {
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 30px;
-}
-
-.sortButton:hover {
-    background-color: #333D41;
-}
-
-.searchBorder {
-    border: 1px solid #27282A;
-    border-radius: 30px;
-}
-
-.searchBorder:hover{
-    border: 1px solid #8BA2AD;
-}
-
-.sideBarLine {
-    display: none;
-}
-
-@media (min-width: 1200px) {
-    .sideBarLine {
-        height: auto;
-        border: 1px solid #3F4142;
-        margin: 3px;
-        display:inline-block;
-    }
-}
-
-.sidebar {
-    width: 240px;
-    padding: 30px;
-}
-
-@media (max-width: 1200px) {
-    .sidebar {
-        display: none;
-    }
-}
-
-.searchSeddit {
-    font-size: medium;
-    min-width: 100px;
-    margin: 40px
-}
-
-.mainContent {
-    margin: 12px;
-    margin-top: 24px;
-}
-
-
-
-@media (max-width: 460px) {
-    .searchSeddit {
-        font-size: small;
-    }
-    #logo {
-        font-size: medium; 
-    }
-    .searchSeddit {
-        margin: 30px;
-    }
-}
-
-.rightSideBar {
-    width: 280px; 
-    margin: 24px;
-}
-
-.centerContnet {
-    max-width: max-content; 
-    margin: auto;
-}
-
-@media (max-width: 940px) {
-    .rightSideBar {
-        width: 0;
-        margin: 0;
-        height: 0;
-        display: none;
-    }
 }

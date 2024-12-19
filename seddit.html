@@ -15,9 +15,9 @@
     <header style="top: 0px; z-index: 999; position: sticky; background-color: rgb(15, 17, 19);">
         <div style="flex-direction: row; padding-left: 8px; height: 56px; display: flex; align-items: center; padding-right: 8px; border-bottom: rgb(63, 65, 66) solid 2px; justify-content: space-between;">
             <a id="logo" href="https://implodedpotato.com">Seddit</a>
-            <div class="searchSeddit" style="height: 40px; display: flex; align-items: center; max-width: 560px; justify-content: center; background-color: rgb(43, 50, 54); border-radius: 50px; flex: 1 1 0%; color: rgb(137, 160, 170);">Search Seddit</div>
+            <div id="searchSeddit">Search Seddit</div>
             <div style="display: flex;">
-                <div style="font-size: 14px; height: 40px; display: flex; align-items: center; justify-content: center; background-color: #6398B9; border-radius: 50px; width: 67px; flex: 1 1 0%; color: white;">Log In</div>
+                <div id="logIn">Log In</div>
                 <img src="assets/images/symbols/threeDots.svg" style="height: auto; padding-right: 10px; width: 15px; padding-left: 10px;">
             </div>
         </div>
@@ -26,7 +26,7 @@
     <!-- Everything Bellow the Top Bar -->
     <div style="display: flex;">
         <!-- Left Side Bar -->
-        <header class="sidebar" style="height: 100vh; overflow-y: scroll;">
+        <header id="sidebar">
             <div>
                 <div class="leftSideBarButton">
                 <img src="assets/images/symbols/sidebar/house.svg" style="height: auto; padding: 10px; width: 32px;">
@@ -115,10 +115,10 @@
             <!-- Left Side Bar End -->
         </header>
         
-        <div class="sideBarLine"></div>
+        <div id="sideBarLine"></div>
 
-        <div class="centerContnet" style="display: flex;">
-            <div class="mainContent" style="display: flex; justify-content: center">
+        <div style="display: flex; max-width: max-content; margin: auto;">
+            <div style="display: flex; justify-content: center;  margin: 12px; margin-top: 24px;">
                 <!-- Main Post -->
                 <div style="max-width: 730px;">
                     <div style="display: flex; align-items: center; justify-content: space-between;">
@@ -140,9 +140,9 @@
                     <p style="margin-top: 5px; color: rgb(184, 202, 212); font-size: 14px;">Im looking for a recipe that would just make your go, “What a splendid pie, pizza-pizza pie”. One where it’s curst is so fluffy, it’s sauce so saucy, it’s toppings so extravagant that every minute and every second, you would would “buy buy buy buy buy”. Normal recipes and Pizza Huts are just a total let down of the traditional masterpiece.</p>
                     <div style="display: flex; padding-top: 16px;">
                         <div class="opinteractionButtons">
-                            <img src="assets/images/symbols/upVotePad.svg" class="upArrowColor" style="height: 32px; width: 32px;">
+                            <img src="assets/images/symbols/upVotePad.svg" style="height: 32px; width: 32px; color: white;">
                             <div style="color: white; font-size: 12px;">41</div>
-                            <img src="assets/images/symbols/downVotePad.svg" class="downArrowColor" style="height: 32px; width: 32px;">
+                            <img src="assets/images/symbols/downVotePad.svg" style="height: 32px; width: 32px; color: white;">
                         </div>
                         <div class="opinteractionButtons" style="display: flex; align-items: center; margin-right: 16px; flex-direction: row;">
                             <div style="height: 32px; display: flex; align-items: center; width: 32px; justify-content: center;"><img src="data:image/svg+xml;Base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9Ii0xNiAtMTYgNjQuMDAgNjQuMDAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iI2ZmZmZmZiI+Cg08ZyBpZD0iU1ZHUmVwb19iZ0NhcnJpZXIiIHN0cm9rZS13aWR0aD0iMCIvPgoNPGcgaWQ9IlNWR1JlcG9fdHJhY2VyQ2FycmllciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cg08ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+IDx0aXRsZT5jb21tZW50LTI8L3RpdGxlPiA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoIEJldGEuPC9kZXNjPiA8ZGVmcz4gPC9kZWZzPiA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBza2V0Y2g6dHlwZT0iTVNQYWdlIj4gPGcgaWQ9Ikljb24tU2V0IiBza2V0Y2g6dHlwZT0iTVNMYXllckdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTUyLjAwMDAwMCwgLTI1NS4wMDAwMDApIiBmaWxsPSIjZmZmZmZmIj4gPHBhdGggZD0iTTE2OCwyODEgQzE2Ni44MzIsMjgxIDE2NS43MDQsMjgwLjg2NCAxNjQuNjIsMjgwLjYzMyBMMTU5LjkxMiwyODMuNDYzIEwxNTkuOTc1LDI3OC44MjQgQzE1Ni4zNjYsMjc2LjY1NCAxNTQsMjczLjA2NiAxNTQsMjY5IEMxNTQsMjYyLjM3MyAxNjAuMjY4LDI1NyAxNjgsMjU3IEMxNzUuNzMyLDI1NyAxODIsMjYyLjM3MyAxODIsMjY5IEMxODIsMjc1LjYyOCAxNzUuNzMyLDI4MSAxNjgsMjgxIEwxNjgsMjgxIFogTTE2OCwyNTUgQzE1OS4xNjQsMjU1IDE1MiwyNjEuMjY5IDE1MiwyNjkgQzE1MiwyNzMuNDE5IDE1NC4zNDUsMjc3LjM1NCAxNTgsMjc5LjkxOSBMMTU4LDI4NyBMMTY1LjAwOSwyODIuNzQ3IEMxNjUuOTc5LDI4Mi45MDcgMTY2Ljk3NywyODMgMTY4LDI4MyBDMTc2LjgzNiwyODMgMTg0LDI3Ni43MzIgMTg0LDI2OSBDMTg0LDI2MS4yNjkgMTc2LjgzNiwyNTUgMTY4LDI1NSBMMTY4LDI1NSBaIE0xNzUsMjY2IEwxNjEsMjY2IEMxNjAuNDQ4LDI2NiAxNjAsMjY2LjQ0OCAxNjAsMjY3IEMxNjAsMjY3LjU1MyAxNjAuNDQ4LDI2OCAxNjEsMjY4IEwxNzUsMjY4IEMxNzUuNTUyLDI2OCAxNzYsMjY3LjU1MyAxNzYsMjY3IEMxNzYsMjY2LjQ0OCAxNzUuNTUyLDI2NiAxNzUsMjY2IEwxNzUsMjY2IFogTTE3MywyNzIgTDE2MywyNzIgQzE2Mi40NDgsMjcyIDE2MiwyNzIuNDQ3IDE2MiwyNzMgQzE2MiwyNzMuNTUzIDE2Mi40NDgsMjc0IDE2MywyNzQgTDE3MywyNzQgQzE3My41NTIsMjc0IDE3NCwyNzMuNTUzIDE3NCwyNzMgQzE3NCwyNzIuNDQ3IDE3My41NTIsMjcyIDE3MywyNzIgTDE3MywyNzIgWiIgaWQ9ImNvbW1lbnQtMiIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+IDwvcGF0aD4gPC9nPiA8L2c+IDwvZz4KDTwvc3ZnPg==" style="height: 32px; position: absolute; width: 32px;"></div>
@@ -154,15 +154,18 @@
                         </div>
                     </div>
                     <div style="margin-top: 20px; margin-bottom: 25px;">
-                        <div class="addCommentBorder" style="margin-bottom: 10px; height: 40px; display: flex; align-items: center; width: 160px; justify-content: center;">
+                        <div id="addCommentButton">
                             <div style="height: 30px; display: flex; align-items: center; width: 30px; justify-content: center;"><img src="assets/images/symbols/plus.svg" style="height: 30px; position: absolute; width: 30px;"></div>
                             <div style="color: white; font-size: 14px; margin-right: 10px; padding-left: 5px;">Add A Comment</div>
                         </div>
                         <div style="display: flex; align-items: center; color: rgb(134, 155, 167); font-size: 12px;">
                             <div>Sort By: </div>
-                            <div class="sortButton" style="height: 32px; display: flex; align-items: center; width: 65px; justify-content: center;">
-                                <div style="font-weight: bold;">Best</div><img src="data:image/svg+xml;Base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyNC4wMCAyNC4wMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBzdHJva2U9IiNmZmZmZmYiPgoNPGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiLz4KDTxnIGlkPSJTVkdSZXBvX3RyYWNlckNhcnJpZXIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgoNPGcgaWQ9IlNWR1JlcG9faWNvbkNhcnJpZXIiPiA8cGF0aCBkPSJNNyAxMEwxMiAxNUwxNyAxMCIgc3Ryb2tlPSIjQjhDQUQ0IiBzdHJva2Utd2lkdGg9IjEuOTIwMDAwMDAwMDAwMDAwNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+IDwvZz4KDTwvc3ZnPg==" style="height: 16px; width: 16px; margin-left: 4px;"></div>
-                            <div class="searchBorder" style="height: 40px; display: flex; align-items: center; width: 185px; margin-left: 10px; justify-content: center;"><img src="data:image/svg+xml;Base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyBmaWxsPSIjNzU4NzkxIiB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBzdHJva2U9IiM4NjlCQTciIHN0cm9rZS13aWR0aD0iMC4wMDAyNDAwMDAwMDAwMDAwMDAwMyI+Cg08ZyBpZD0iU1ZHUmVwb19iZ0NhcnJpZXIiIHN0cm9rZS13aWR0aD0iMCIvPgoNPGcgaWQ9IlNWR1JlcG9fdHJhY2VyQ2FycmllciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cg08ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+Cg08cGF0aCBkPSJNMy42MjQsMTVhOC4wMyw4LjAzLDAsMCwwLDEwLjYxOS42NTlsNS4zMTgsNS4zMThhMSwxLDAsMCwwLDEuNDE0LTEuNDE0bC01LjMxOC01LjMxOEE4LjA0LDguMDQsMCwwLDAsMy42MjQsMy42MjQsOC4wNDIsOC4wNDIsMCwwLDAsMy42MjQsMTVabTEuNDE0LTkuOTZhNi4wNDMsNi4wNDMsMCwxLDEtMS43Nyw0LjI3NEE2LDYsMCwwLDEsNS4wMzgsNS4wMzhaTTQuNjIyLDkuMzExYTEsMSwwLDAsMSwyLDBBMi42OTIsMi42OTIsMCwwLDAsOS4zMTEsMTJhMSwxLDAsMCwxLDAsMkE0LjcsNC43LDAsMCwxLDQuNjIyLDkuMzExWiIvPgoNPC9nPgoNPC9zdmc+" style="height: 24px; width: 24px;">
+                            <div id="sortButton" style="height: 32px; display: flex; align-items: center; width: 65px; justify-content: center;">
+                                <div style="font-weight: bold;">Best</div>
+                                <img src="assets/images/symbols/downCaret.svg" style="height: 16px; width: 16px; margin-left: 4px;">
+                            </div>
+                            <div id="searchComments">
+                                <img src="assets/images/symbols/magnifierGlass.svg" style="height: 24px; width: 24px;">
                                 <div style="font-size: 14px;">Search Comments</div>
                             </div>
                         </div>
@@ -175,7 +178,7 @@
                 </div>
             </div>
             <!-- Right Glob -->
-            <header class="rightSideBar" style="color: white;">
+            <header id="rightSideBar">
                 <div style="background-color: #0A0B0D; border-radius: 25px; height: 220px; background-color: #0A0B0D; padding: 16px; ">
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <div>s/Mature_Recipies</div>
