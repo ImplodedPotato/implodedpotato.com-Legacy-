@@ -108,7 +108,7 @@ a:active {
 }
 
 .sideBarLine {
-    width: 0;
+    display: none;
 }
 
 @media (min-width: 1200px) {
@@ -127,8 +127,7 @@ a:active {
 
 @media (max-width: 1200px) {
     .sidebar {
-        width: 0;
-        padding: 0;
+        display: none;
     }
 }
 
@@ -139,7 +138,8 @@ a:active {
 }
 
 .mainContent {
-    margin: 24px
+    margin: 12px;
+    margin-top: 24px;
 }
 
 
@@ -154,9 +154,6 @@ a:active {
     .searchSeddit {
         margin: 30px;
     }
-    .mainContent {
-        margin: 12;
-    }
 }
 
 .rightSideBar {
@@ -169,12 +166,11 @@ a:active {
     margin: auto;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 940px) {
     .rightSideBar {
         width: 0;
         margin: 0;
-    }
-    .centerContnet {
-        margin: 0;
+        height: 0;
+        display: none;
     }
 }
