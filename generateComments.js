@@ -39,7 +39,6 @@ function generateResponse(i) {
 
     return temp;
 }
-
 function generateResponses(comments) {
     let html = "";
 
