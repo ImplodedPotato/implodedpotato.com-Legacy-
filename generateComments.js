@@ -1,5 +1,5 @@
-function generateComments() {
-    fetch('https://implodedpotato.com/responses.json')
+function generateComments(fileName) {
+    fetch('https://implodedpotato.com/' + fileName)
         .then(response => response.json())
         .then(data => {
             document.getElementById("responses").innerHTML = generateResponses(data.responses)
