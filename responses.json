@@ -9,7 +9,7 @@
           "replies": 3,
           "comments": [
             {
-              "content": "Looks ok, but what the 1 cup o whole peeled tomatoes mean? 1oz? 12oz? 128oz? This isn’t very clear. I guess all just take a random number generator and use that. (I rolled to use 28)",
+              "content": "Looks ok, but what the 1 cup o whole peeled tomatoes mean? 1oz? 12oz? 128oz? This isn’t very clear. I guess all just take a random number generator and use that.",
               "name": "MachoPop",
               "date": "4.2mo. ago",
               "pfp": "Defualt.png",
@@ -43,7 +43,7 @@
           "name": "Burt",
           "date": "5.3mo. ago",
           "pfp": "Defualt.png",
-          "likes": 8,
+          "likes": 56,
           "replies": 1,
           "comments": [
             {
@@ -56,6 +56,15 @@
               "comments": null
             }
           ]
+        },
+        {
+          "content": "That's pathetically simple, all you do is take the a public train to Naples, Italy, then find the finest building from the 1930's. Finally you go and ask for Benito Mussolini to bake you a delision pizza.",
+          "name": "Berry",
+          "date": "32,850 days ago",
+          "pfp": "Defualt.png",
+          "likes": 2,
+          "replies": 0,
+          "comments": null
         }
       ]
 }
